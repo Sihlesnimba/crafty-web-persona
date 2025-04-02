@@ -5,8 +5,8 @@ import { ChevronDown, Terminal } from 'lucide-react';
 
 const Hero = () => {
   const [typedText, setTypedText] = useState('');
-  const fullText = 'Sihle Nsimba'; // Updated name here
-  const roleText = 'Frontend Developer & UX Designer';
+  const fullText = 'Sihle Nsimba';
+  const roleText = 'Full Stack Developer'; // Updated role here
   const [typedRole, setTypedRole] = useState('');
   const [showCursor, setShowCursor] = useState(true);
   const [commandPrompt, setCommandPrompt] = useState('');
