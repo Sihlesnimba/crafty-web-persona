@@ -54,11 +54,11 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				portfolio: {
-					primary: '#3A86FF',
-					secondary: '#F5F5F7',
-					dark: '#2D3748',
-					light: '#FFFFFF',
-					accent: '#4361EE'
+					primary: '#50fa7b',     // Terminal green
+					secondary: '#282a36',   // Terminal background
+					dark: '#21222c',        // Darker shade for contrast
+					light: '#f8f8f2',       // Light text
+					accent: '#bd93f9'       // Purple accent
 				}
 			},
 			borderRadius: {
@@ -90,17 +90,28 @@ export default {
 				'slide-up': {
 					'0%': { transform: 'translateY(10px)', opacity: '0' },
 					'100%': { transform: 'translateY(0)', opacity: '1' }
+				},
+				'cursor-blink': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0' }
+				},
+				'typing': {
+					'from': { width: '0' },
+					'to': { width: '100%' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.5s ease-out forwards',
-				'slide-up': 'slide-up 0.5s ease-out forwards'
+				'slide-up': 'slide-up 0.5s ease-out forwards',
+				'cursor-blink': 'cursor-blink 1s step-end infinite',
+				'typing': 'typing 2s steps(40, end) forwards'
 			},
 			fontFamily: {
 				'sans': ['Inter', 'sans-serif'],
-				'heading': ['Poppins', 'sans-serif']
+				'heading': ['Poppins', 'sans-serif'],
+				'mono': ['Consolas', 'Monaco', 'Menlo', 'monospace']
 			}
 		}
 	},
