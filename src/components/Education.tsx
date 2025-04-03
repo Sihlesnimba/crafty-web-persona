@@ -17,7 +17,7 @@ const educationData = [
     description: "Strong foundation in environmental management, sustainability, and scientific research. Graduated with distinctions."
   },
   {
-    degree: "Web Development Bootcamp",
+    degree: "Software Engineering Program",
     institution: "Coding Academy",
     location: "San Francisco, CA",
     period: "2013",
