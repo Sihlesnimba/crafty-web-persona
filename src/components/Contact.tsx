@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Mail, PhoneCall, MapPin, Send, Instagram, Github, X, Facebook } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
+
 const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -45,7 +46,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium">Location</p>
-                  <p className="text-gray-600">San Francisco, California, USA</p>
+                  <p className="text-gray-600">Mbombela, Mpumalanga, South Africa</p>
                 </div>
               </div>
             </div>
