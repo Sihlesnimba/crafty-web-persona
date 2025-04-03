@@ -16,9 +16,11 @@ const About = () => {
             <p className="text-gray-600 mb-4">I'm Sihle Nsimba, a passionate and motivated aspiring Full Stack Developer with a background in Environmental Sciences. Currently, I am honing my skills in web development through PLP Academy, where I'm learning the fundamentals of HTML, CSS, and programming.</p>
             <p className="text-gray-600 mb-4">I have a keen interest in technology and innovation, particularly in how they can be leveraged to provide environmental solutions. My goal is to combine my knowledge of sustainability with software development to create impactful digital solutions.
           </p>
-            <p className="text-gray-600 mb-6">
-              When I'm not coding, you'll find me exploring new hiking trails, experimenting with photography, or enjoying a good book at my favorite local café.
-            </p>
+            <p className="text-gray-600 mb-6">Beyond coding, I enjoy problem-solving, continuous learning, and exploring new technologies. I believe in the power of technology to transform industries, and I am excited to build projects that showcase my skills and creativity.
+
+Let’s connect and build something great together!
+
+          </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
