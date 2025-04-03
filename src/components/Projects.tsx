@@ -1,42 +1,42 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Github, Code, Layout, Terminal } from 'lucide-react';
 
 const projectsData = [
   {
-    title: "E-commerce Website",
-    category: "Web Development",
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    description: "A fully responsive e-commerce website built with React, Node.js, and MongoDB. Features include user authentication, product filtering, and payment integration.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
-    liveLink: "#",
-    githubLink: "#"
-  },
-  {
-    title: "Task Management App",
-    category: "Web Application",
+    title: "Personal Portfolio",
+    category: "HTML & CSS",
     image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    description: "A task management application that helps users organize their work with features like drag-and-drop task prioritization, reminders, and team collaboration.",
-    technologies: ["Vue.js", "Firebase", "Tailwind CSS", "Vuex"],
+    description: "My first portfolio website built with HTML, CSS, and basic JavaScript. Features responsive design and showcases my learning journey as a beginner developer.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
     liveLink: "#",
     githubLink: "#"
   },
   {
-    title: "Fitness Tracker",
-    category: "Mobile App",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    description: "A React Native app that tracks workouts, provides personalized training plans, and monitors progress with detailed analytics and visualization.",
-    technologies: ["React Native", "TypeScript", "Redux", "D3.js", "Health API"],
+    title: "To-Do List App",
+    category: "JavaScript Basics",
+    image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    description: "A simple to-do list application that allows users to add, delete, and mark tasks as complete. Built with vanilla JavaScript, HTML, and CSS.",
+    technologies: ["HTML", "CSS", "JavaScript", "Local Storage"],
     liveLink: "#",
     githubLink: "#"
   },
   {
-    title: "Recipe Finder",
-    category: "Web Application",
-    image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
-    description: "A recipe search application that allows users to find recipes based on ingredients they have. Features include dietary filters, meal planning, and saved favorites.",
-    technologies: ["Angular", "TypeScript", "RxJS", "Spoonacular API", "SCSS"],
+    title: "Weather Dashboard",
+    category: "API Integration",
+    image: "https://images.unsplash.com/photo-1530908295418-a12e326966ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    description: "A weather dashboard that displays current weather conditions for searched cities. My first project working with external APIs and handling JSON data.",
+    technologies: ["HTML", "CSS", "JavaScript", "OpenWeather API"],
+    liveLink: "#",
+    githubLink: "#"
+  },
+  {
+    title: "Simple Blog Layout",
+    category: "Web Design",
+    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    description: "A responsive blog layout featuring multiple pages and a clean, accessible design. Built to practice CSS layout techniques including Flexbox and CSS Grid.",
+    technologies: ["HTML5", "CSS3", "Flexbox", "CSS Grid", "Web Accessibility"],
     liveLink: "#",
     githubLink: "#"
   }
@@ -60,7 +60,13 @@ const Projects = () => {
               </div>
               
               <div className="p-6 flex-1 flex flex-col">
-                <span className="text-sm text-portfolio-primary font-medium mb-2">{project.category}</span>
+                <span className="text-sm text-portfolio-primary font-medium mb-2 flex items-center gap-1">
+                  {project.category === "HTML & CSS" ? <Layout size={16} /> : 
+                   project.category === "JavaScript Basics" ? <Code size={16} /> : 
+                   project.category === "API Integration" ? <Terminal size={16} /> : 
+                   <Layout size={16} />}
+                  {project.category}
+                </span>
                 <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
                 <p className="text-gray-600 mb-4 flex-1">{project.description}</p>
                 
