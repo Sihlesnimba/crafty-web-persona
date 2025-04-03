@@ -13,7 +13,7 @@ const About = () => {
           
           <div className="w-full md:w-2/3">
             <h3 className="text-2xl font-semibold mb-4">Who am I?</h3>
-            <p className="text-gray-600 mb-4">I'm Sihle Nsimba, a passionate and motivated aspiring Full Stack Developer with a background in Environmental Sciences. Currently, I am honing my skills in web development through PLP Academy, where I'm learning the fundamentals of HTML, CSS, and programming.</p>
+            <p className="text-gray-600 mb-4">Hello! I'm a passionate and motivated aspiring Full Stack Developer with a background in Environmental Sciences. Currently, I am honing my skills in web development through PLP Academy, where I'm learning the fundamentals of HTML, CSS, and programming.</p>
             <p className="text-gray-600 mb-4">I have a keen interest in technology and innovation, particularly in how they can be leveraged to provide environmental solutions. My goal is to combine my knowledge of sustainability with software development to create impactful digital solutions.
           </p>
             <p className="text-gray-600 mb-6">Beyond coding, I enjoy problem-solving, continuous learning, and exploring new technologies. I believe in the power of technology to transform industries, and I am excited to build projects that showcase my skills and creativity.
