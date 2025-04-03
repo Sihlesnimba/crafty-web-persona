@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Camera, Code, Compass, Book, Music, Coffee } from 'lucide-react';
+import { Camera, Code, Compass, Book, Gamepad2, Users } from 'lucide-react';
 
 const interestsData = [
   {
@@ -24,14 +24,14 @@ const interestsData = [
     description: "Enjoying non-fiction books on technology, psychology, and personal development."
   },
   {
-    title: "Music",
-    icon: Music,
-    description: "Playing guitar and piano as a way to unwind and express creativity."
+    title: "Gaming",
+    icon: Gamepad2,
+    description: "Exploring immersive video game worlds and enjoying strategic and narrative-driven games."
   },
   {
-    title: "Coffee",
-    icon: Coffee,
-    description: "Exploring different coffee brewing methods and visiting local coffee shops."
+    title: "Socializing",
+    icon: Users,
+    description: "Connecting with friends, networking, and enjoying meaningful conversations."
   }
 ];
 
