@@ -1,19 +1,15 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Mail, PhoneCall, MapPin, Send, Instagram, Github, X, Facebook } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-
 const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // This would be where form submission logic would go
     // Since this is non-functional as per requirements, we just prevent default
   };
-  
-  return (
-    <section id="contact" className="bg-portfolio-secondary">
+  return <section id="contact" className="bg-portfolio-secondary">
       <div className="container mx-auto">
         <h2 className="section-title">Contact Me</h2>
         
@@ -29,7 +25,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-gray-600">contact@johndoe.com</p>
+                  <p className="text-gray-600">sihlensimba@gmail.com</p>
                 </div>
               </div>
               
@@ -39,7 +35,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+27 (84) 816-3605</p>
                 </div>
               </div>
               
@@ -83,22 +79,13 @@ const Contact = () => {
                   <label htmlFor="name" className="block text-sm font-medium mb-2">
                     Your Name
                   </label>
-                  <Input 
-                    id="name" 
-                    placeholder="Sihle Nsimba" 
-                    required 
-                  />
+                  <Input id="name" placeholder="Sihle Nsimba" required />
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium mb-2">
                     Your Email
                   </label>
-                  <Input 
-                    id="email" 
-                    type="email" 
-                    placeholder="sihle@example.com" 
-                    required 
-                  />
+                  <Input id="email" type="email" placeholder="sihle@example.com" required />
                 </div>
               </div>
               
@@ -106,23 +93,14 @@ const Contact = () => {
                 <label htmlFor="subject" className="block text-sm font-medium mb-2">
                   Subject
                 </label>
-                <Input 
-                  id="subject" 
-                  placeholder="How can I help you?" 
-                  required 
-                />
+                <Input id="subject" placeholder="How can I help you?" required />
               </div>
               
               <div className="mb-6">
                 <label htmlFor="message" className="block text-sm font-medium mb-2">
                   Message
                 </label>
-                <Textarea 
-                  id="message" 
-                  placeholder="Write your message here..." 
-                  className="min-h-[150px]" 
-                  required 
-                />
+                <Textarea id="message" placeholder="Write your message here..." className="min-h-[150px]" required />
               </div>
               
               <Button type="submit" className="w-full" size="lg">
@@ -132,8 +110,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
