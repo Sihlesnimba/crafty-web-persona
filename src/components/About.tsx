@@ -29,7 +29,7 @@ Let’s connect and build something great together!
               </div>
               <div>
                 <p className="font-medium">Email:</p>
-                <p className="text-gray-600">0796333693sh@gmail.com</p>
+                <p className="text-gray-600">sihlensimba@gmail.com</p>
               </div>
               <div>
                 <p className="font-medium">Location:</p>
