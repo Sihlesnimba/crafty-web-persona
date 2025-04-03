@@ -4,16 +4,16 @@ import { Code, FileText, Github, Layout, Terminal } from 'lucide-react';
 
 const skillCategories = [
   {
-    category: "Frontend Basics",
+    category: "Web Fundamentals",
     skills: ["HTML5", "CSS3", "Basic JavaScript", "Responsive Design", "Bootstrap"]
   },
   {
     category: "Development Tools",
-    skills: ["Git", "GitHub", "VS Code", "Chrome DevTools", "Command Line"]
+    skills: ["Git", "GitHub", "VS Code", "Chrome DevTools", "Command Line Basics"]
   },
   {
     category: "Learning & Growth",
-    skills: ["Problem Solving", "Documentation Reading", "Online Learning", "Code Review Basics", "Web Accessibility"]
+    skills: ["Problem Solving", "Documentation Reading", "Online Learning", "Code Review Basics", "Web Accessibility Basics"]
   }
 ];
 
@@ -27,7 +27,7 @@ const Skills = () => {
           {skillCategories.map((category, index) => (
             <div key={index} className="bg-portfolio-secondary rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
               <h3 className="text-xl font-semibold mb-4 pb-3 border-b border-gray-200 flex items-center gap-2">
-                {index === 0 ? <Layout size={20} /> : index === 1 ? <Terminal size={20} /> : <FileText size={20} />}
+                {index === 0 ? <Layout size={20} /> : index === 1 ? <Github size={20} /> : <FileText size={20} />}
                 {category.category}
               </h3>
               <div className="flex flex-wrap gap-3">
@@ -49,11 +49,11 @@ const Skills = () => {
           
           <div className="space-y-6 max-w-3xl mx-auto">
             {[
-              { skill: "HTML & CSS", percentage: 75 },
-              { skill: "JavaScript Fundamentals", percentage: 60 },
-              { skill: "Git & Version Control", percentage: 65 },
-              { skill: "Responsive Design", percentage: 70 },
-              { skill: "Web Accessibility", percentage: 50 }
+              { skill: "HTML & CSS", percentage: 65 },
+              { skill: "JavaScript Basics", percentage: 45 },
+              { skill: "Git & Version Control", percentage: 40 },
+              { skill: "Responsive Design", percentage: 55 },
+              { skill: "Web Accessibility", percentage: 30 }
             ].map((item, index) => (
               <div key={index} className="w-full">
                 <div className="flex justify-between mb-1">

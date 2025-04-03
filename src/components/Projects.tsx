@@ -5,7 +5,7 @@ import { ExternalLink, Github, Code, Layout, Terminal } from 'lucide-react';
 
 const projectsData = [
   {
-    title: "Personal Portfolio",
+    title: "Personal Portfolio Website",
     category: "HTML & CSS",
     image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     description: "My first portfolio website built with HTML, CSS, and basic JavaScript. Features responsive design and showcases my learning journey as a beginner developer.",
@@ -14,16 +14,16 @@ const projectsData = [
     githubLink: "#"
   },
   {
-    title: "To-Do List App",
+    title: "Task Tracker App",
     category: "JavaScript Basics",
     image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    description: "A simple to-do list application that allows users to add, delete, and mark tasks as complete. Built with vanilla JavaScript, HTML, and CSS.",
+    description: "A simple task management application that allows users to add, delete, and mark tasks as complete. Built with vanilla JavaScript, HTML, and CSS.",
     technologies: ["HTML", "CSS", "JavaScript", "Local Storage"],
     liveLink: "#",
     githubLink: "#"
   },
   {
-    title: "Weather Dashboard",
+    title: "Weather Lookup Tool",
     category: "API Integration",
     image: "https://images.unsplash.com/photo-1530908295418-a12e326966ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     description: "A weather dashboard that displays current weather conditions for searched cities. My first project working with external APIs and handling JSON data.",
@@ -32,11 +32,11 @@ const projectsData = [
     githubLink: "#"
   },
   {
-    title: "Simple Blog Layout",
+    title: "Simple E-commerce Demo",
     category: "Web Design",
     image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    description: "A responsive blog layout featuring multiple pages and a clean, accessible design. Built to practice CSS layout techniques including Flexbox and CSS Grid.",
-    technologies: ["HTML5", "CSS3", "Flexbox", "CSS Grid", "Web Accessibility"],
+    description: "A static e-commerce website demo featuring product listings and a simple shopping cart. Built to practice CSS layout techniques including Flexbox and CSS Grid.",
+    technologies: ["HTML5", "CSS3", "Flexbox", "CSS Grid", "JavaScript Basics"],
     liveLink: "#",
     githubLink: "#"
   }
