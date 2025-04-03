@@ -13,9 +13,7 @@ const About = () => {
           
           <div className="w-full md:w-2/3">
             <h3 className="text-2xl font-semibold mb-4">Who am I?</h3>
-            <p className="text-gray-600 mb-4">
-              I'm John Doe, a passionate frontend developer and UX designer with over 5 years of experience crafting beautiful and functional digital experiences. I specialize in creating responsive websites and applications that not only look great but also deliver exceptional user experiences.
-            </p>
+            <p className="text-gray-600 mb-4">I'm Sihle Nsimba, a passionate and motivated aspiring Full Stack Developer with a background in Environmental Sciences. Currently, I am honing my skills in web development through PLP Academy, where I'm learning the fundamentals of HTML, CSS, and programming.</p>
             <p className="text-gray-600 mb-4">
               My journey in web development started when I was in college, and since then, I've been constantly learning and improving my skills to stay up-to-date with the latest technologies and design trends.
             </p>
