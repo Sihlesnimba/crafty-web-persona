@@ -4,13 +4,6 @@ import { CalendarIcon, GraduationCap } from 'lucide-react';
 
 const educationData = [
   {
-    degree: "Master of Computer Science",
-    institution: "Stanford University",
-    location: "Stanford, CA",
-    period: "2018 - 2020",
-    description: "Specialized in Human-Computer Interaction with focus on User Experience Design. Graduated with honors."
-  },
-  {
     degree: "Bachelor of Science in Environmental Sciences",
     institution: "University of Mpumalanga",
     location: "South Africa",
