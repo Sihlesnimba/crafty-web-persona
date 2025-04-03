@@ -41,11 +41,11 @@ const Skills = () => {
           
           <div className="space-y-6 max-w-3xl mx-auto">
             {[
-              { skill: "Problem Solving", percentage: 90 },
-              { skill: "Communication", percentage: 85 },
-              { skill: "Teamwork", percentage: 95 },
+              { skill: "Problem Solving", percentage: 65 },
+              { skill: "Communication", percentage: 60 },
+              { skill: "Teamwork", percentage: 90 },
               { skill: "Time Management", percentage: 80 },
-              { skill: "Adaptability", percentage: 88 }
+              { skill: "Adaptability", percentage: 95 }
             ].map((item, index) => (
               <div key={index} className="w-full">
                 <div className="flex justify-between mb-1">
