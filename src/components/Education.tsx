@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { CalendarIcon, GraduationCap } from 'lucide-react';
 
@@ -15,7 +14,7 @@ const educationData = [
     institution: "University of Mpumalanga",
     location: "South Africa",
     period: "2021 - 2023",
-    description: "Focus on web development and software engineering. Received Dean's List recognition for academic excellence."
+    description: "Focus on environmental integration. Graduated with distinctions"
   },
   {
     degree: "Web Development Bootcamp",
