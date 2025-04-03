@@ -25,7 +25,7 @@ Let’s connect and build something great together!
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <p className="font-medium">Name:</p>
-                <p className="text-gray-600">John Doe</p>
+                <p className="text-gray-600">Sihle Nsimba</p>
               </div>
               <div>
                 <p className="font-medium">Email:</p>
