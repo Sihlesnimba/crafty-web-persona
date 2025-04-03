@@ -19,8 +19,8 @@ const educationData = [
   },
   {
     degree: "Software Engineering Program",
-    institution: "Coding Academy",
-    location: "San Francisco, CA",
+    institution: "PLP Academy",
+    location: "Nairobi, Kenya",
     period: "2025",
     description: "Intensive 12-week program focused on frontend and backend development technologies."
   }
