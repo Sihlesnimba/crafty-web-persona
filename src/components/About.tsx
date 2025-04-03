@@ -29,11 +29,11 @@ Let’s connect and build something great together!
               </div>
               <div>
                 <p className="font-medium">Email:</p>
-                <p className="text-gray-600">contact@johndoe.com</p>
+                <p className="text-gray-600">0796333693sh@gmail.com</p>
               </div>
               <div>
                 <p className="font-medium">Location:</p>
-                <p className="text-gray-600">San Francisco, CA</p>
+                <p className="text-gray-600">South Africa</p>
               </div>
               <div>
                 <p className="font-medium">Availability:</p>
