@@ -1,14 +1,9 @@
-
 import React from 'react';
 
 const skillCategories = [
   {
     category: "Frontend Development",
     skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Vue.js", "Angular", "Tailwind CSS", "SCSS"]
-  },
-  {
-    category: "UI/UX Design",
-    skills: ["Figma", "Adobe XD", "Sketch", "User Research", "Wireframing", "Prototyping", "Usability Testing"]
   },
   {
     category: "Backend Development",
