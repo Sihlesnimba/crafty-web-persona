@@ -11,7 +11,7 @@ const educationData = [
     description: "Specialized in Human-Computer Interaction with focus on User Experience Design. Graduated with honors."
   },
   {
-    degree: "Bachelor of Science in Information Technology",
+    degree: "Bachelor of Science in Environmental Sciences",
     institution: "University of California",
     location: "Berkeley, CA",
     period: "2014 - 2018",
