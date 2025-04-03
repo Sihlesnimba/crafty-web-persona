@@ -40,6 +40,8 @@ const Footer = () => {
               <li>
                 <a 
                   href="/resume.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   download="SihleNsimba_Resume.pdf"
                   className="text-portfolio-primary/70 hover:text-portfolio-primary transition-colors duration-200 flex items-center"
                 >

@@ -59,7 +59,7 @@ const Header = () => {
             <a onClick={() => handleNavClick('interests')} className="nav-link cursor-pointer">cd ~/interests</a>
             <a onClick={() => handleNavClick('projects')} className="nav-link cursor-pointer">cd ~/projects</a>
             <a onClick={() => handleNavClick('contact')} className="nav-link cursor-pointer">cd ~/contact</a>
-            <a href="/resume.pdf" download="SihleNsimba_Resume.pdf">
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" download="SihleNsimba_Resume.pdf">
               <Button variant="outline" className="ml-4" size="sm">
                 <Download size={16} className="mr-2" /> get cv.pdf
               </Button>
@@ -78,7 +78,7 @@ const Header = () => {
               <a onClick={() => handleNavClick('interests')} className="nav-link text-lg py-2 border-b border-portfolio-primary/20">cd ~/interests</a>
               <a onClick={() => handleNavClick('projects')} className="nav-link text-lg py-2 border-b border-portfolio-primary/20">cd ~/projects</a>
               <a onClick={() => handleNavClick('contact')} className="nav-link text-lg py-2 border-b border-portfolio-primary/20">cd ~/contact</a>
-              <a href="/resume.pdf" download="SihleNsimba_Resume.pdf" className="mt-4">
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" download="SihleNsimba_Resume.pdf" className="mt-4">
                 <Button variant="outline" className="w-full" size="sm">
                   <Download size={16} className="mr-2" /> get cv.pdf
                 </Button>
