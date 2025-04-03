@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Mail, PhoneCall, MapPin, Send, Instagram, Github, X } from 'lucide-react';
+import { Mail, PhoneCall, MapPin, Send, Instagram, Github, X, Facebook } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 
