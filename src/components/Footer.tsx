@@ -1,24 +1,22 @@
-
 import React from 'react';
 import { ChevronUp, Terminal } from 'lucide-react';
-
 const Footer = () => {
   const handleScrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   };
-  
   const date = new Date().getFullYear();
-  
-  return (
-    <footer className="bg-portfolio-secondary text-portfolio-primary py-12 border-t border-portfolio-primary/30">
+  return <footer className="bg-portfolio-secondary text-portfolio-primary py-12 border-t border-portfolio-primary/30">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <div className="flex items-center text-xl font-bold mb-2">
               <Terminal size={20} className="mr-2" />
-              <span>John Doe</span>
+              <span>Sihle Nsimba</span>
             </div>
-            <p className="text-portfolio-primary/70">Frontend Developer & UX Designer</p>
+            <p className="text-portfolio-primary/70">Full Stack Developer</p>
           </div>
           
           <div className="mb-6 md:mb-0">
@@ -65,17 +63,11 @@ const Footer = () => {
             <span className="text-portfolio-accent">$</span> echo "© {date} John Doe. All rights reserved."
           </p>
           
-          <button 
-            onClick={handleScrollToTop}
-            className="bg-portfolio-primary/20 hover:bg-portfolio-primary/30 p-2 rounded-full text-portfolio-primary transition-colors duration-300"
-            aria-label="Scroll to top"
-          >
+          <button onClick={handleScrollToTop} className="bg-portfolio-primary/20 hover:bg-portfolio-primary/30 p-2 rounded-full text-portfolio-primary transition-colors duration-300" aria-label="Scroll to top">
             <ChevronUp size={20} />
           </button>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
