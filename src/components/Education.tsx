@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { CalendarIcon, GraduationCap } from 'lucide-react';
 
@@ -20,7 +21,7 @@ const educationData = [
     degree: "Software Engineering Program",
     institution: "Coding Academy",
     location: "San Francisco, CA",
-    period: "2013",
+    period: "2025",
     description: "Intensive 12-week program focused on frontend and backend development technologies."
   }
 ];
