@@ -22,7 +22,7 @@ const educationData = [
     institution: "PLP Academy",
     location: "Nairobi, Kenya",
     period: "2025",
-    description: "Intensive 12-week program focused on frontend and backend development technologies."
+    description: "Specializing in Full Stack Development (MERN), building expertise in HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB through hands-on projects."
   }
 ];
 
