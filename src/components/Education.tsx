@@ -14,7 +14,7 @@ const educationData = [
     degree: "Bachelor of Science in Environmental Sciences",
     institution: "University of Mpumalanga",
     location: "South Africa",
-    period: "2014 - 2018",
+    period: "2021 - 2023",
     description: "Focus on web development and software engineering. Received Dean's List recognition for academic excellence."
   },
   {
