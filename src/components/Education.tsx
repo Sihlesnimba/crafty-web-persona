@@ -14,7 +14,7 @@ const educationData = [
     institution: "University of Mpumalanga",
     location: "South Africa",
     period: "2021 - 2023",
-    description: "Focus on environmental integration. Graduated with distinctions"
+    description: "Strong foundation in environmental management, sustainability, and scientific research."
   },
   {
     degree: "Web Development Bootcamp",
