@@ -1,20 +1,13 @@
-
 import React from 'react';
-
 const About = () => {
-  return (
-    <section id="about" className="bg-white">
+  return <section id="about" className="bg-white">
       <div className="container mx-auto">
         <h2 className="section-title">About Me</h2>
         
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="w-full md:w-1/3">
             <div className="rounded-full overflow-hidden aspect-square mx-auto max-w-xs border-4 border-portfolio-secondary shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
-                alt="John Doe" 
-                className="w-full h-full object-cover"
-              />
+              <img alt="John Doe" className="w-full h-full object-cover" src="/lovable-uploads/3d597582-3d50-48ac-ab5e-2fc1b2849a81.jpg" />
             </div>
           </div>
           
@@ -51,8 +44,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
